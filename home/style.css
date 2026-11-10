@@ -178,6 +178,10 @@ a {
   background: #ff3f3a;
 }
 
+.wrapper2 {
+  font-family: "Lato", sans-serif;
+}
+
 .wrapper_section2 {
   display: flex;
   align-items: center;
@@ -195,11 +199,14 @@ a {
 }
 
 .btn_1 {
+  max-width: 161px;
+  width: 100%;
   border-radius: 4px;
   border: none;
-  padding: 16px 20px;
+  padding: 16px;
   color: white;
   background-image: linear-gradient(to right, #ff3f3a, #f75e05);
+  margin-top: 50px;
 }
 
 .wrapper_text1 {
@@ -207,6 +214,20 @@ a {
   flex-direction: column;
   row-gap: 10px;
   justify-content: center;
+}
+
+.text1 {
+  font-weight: bold;
+}
+
+.text2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.wrapper3 {
+  font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 1100px) {
