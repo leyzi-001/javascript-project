@@ -178,6 +178,13 @@ a {
   background: #ff3f3a;
 }
 
+.wrapper_section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
 @media (max-width: 1100px) {
   .hero_title {
     font-size: 48px;
