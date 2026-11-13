@@ -59,7 +59,6 @@ input {
 }
 
 .card-top::before {
-  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -79,7 +78,6 @@ input {
   bottom: 0;
   transform: translateX(-50%);
   height: 100%;
-  object-fit: contain;
 }
 
 .card-body {
@@ -297,7 +295,6 @@ input {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  object-fit: cover;
 }
 
 .muallif-ism {
@@ -377,7 +374,6 @@ input {
 
 .logo {
   width: 140px;
-  object-fit: contain;
 }
 
 .rasm-quti {
@@ -516,17 +512,68 @@ input {
   font-weight: 700;
 }
 
-@media (max-width: 992px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 1200px) {
+  .futer-setka {
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
   }
 
-  .futer-setka {
+  .yangilik {
+    grid-column: 1 / -1;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .kurslar {
+    padding: 40px 0 60px;
+  }
+
+  .strelka {
+    display: none;
+  }
+
+  .cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .wrapper_two_things_a_and_input {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .wrapper_text_a_page2 {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+
+  .wrapper_two_things_a_and_input form,
+  .wrapper_two_things_a_and_input form input {
+    width: 100%;
+  }
+
+  .fikrlar,
+  .sertifikat {
+    padding: 60px 0;
+  }
+
+  .fikr-sarlavha,
+  .sert-sarlavha {
+    font-size: 36px;
+  }
+
+  .fikr-sarlavha {
+    margin-bottom: 40px;
+  }
+
+  .fikr-karta {
+    padding: 56px 40px 40px;
   }
 
   .sert-quti {
     flex-direction: column;
+    gap: 40px;
   }
 
   .matn {
@@ -535,14 +582,50 @@ input {
 
   .rasm-quti {
     justify-content: center;
+    width: 100%;
+  }
+
+  .futer {
+    padding-top: 60px;
+  }
+
+  .futer-setka {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .haqida,
+  .yangilik {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .fikr-sarlavha,
+  .sert-sarlavha {
+    font-size: 30px;
+  }
+
+  .fikr-matn {
+    font-size: 18px;
+  }
+
+  .slayder {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   .fikr-karta {
-    padding: 64px 40px;
+    order: 1;
+    width: 100%;
   }
 
-  .strelka {
-    display: none;
+  .tugma {
+    order: 2;
+  }
+
+  .logolar {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
 
@@ -551,39 +634,69 @@ input {
     grid-template-columns: 1fr;
   }
 
-  .wrapper_two_things_a_and_input {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .wrapper_text_a_page2 {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .fikr-sarlavha,
-  .sert-sarlavha {
-    font-size: 32px;
-  }
-
-  .slayder {
-    gap: 10px;
+  .card-top {
+    height: 210px;
   }
 
   .fikr-karta {
-    padding: 56px 20px 30px;
+    padding: 52px 20px 28px;
   }
 
-  .logolar {
-    flex-wrap: wrap;
+  .tirnoq {
+    top: 14px;
+    left: 20px;
+    font-size: 72px;
+  }
+
+  .fikr-matn {
+    font-size: 16px;
+  }
+
+  .fikr-muallif {
+    gap: 14px;
+  }
+
+  .logo {
+    width: 110px;
   }
 
   .futer-setka {
     grid-template-columns: 1fr;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+
+  .yangilik {
+    grid-column: auto;
   }
 
   .pastki-ichi {
     flex-direction: column;
     gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .text_a_page2 {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .fikr-sarlavha,
+  .sert-sarlavha {
+    font-size: 26px;
+  }
+
+  .card-body {
+    padding: 18px 16px 22px;
+  }
+
+  .logo {
+    width: 90px;
   }
 }
