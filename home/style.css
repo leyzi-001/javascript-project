@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper1 {
   font-family: "Lato", sans-serif;
   color: #1f2030;
   background: linear-gradient(180deg, #ffdccd 0%, #ffe3da 100%);
@@ -70,6 +70,11 @@ a {
   font-weight: 700;
   cursor: pointer;
   border: none;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }
 
 .btn_primary {
@@ -171,6 +176,58 @@ a {
   height: 7px;
   border-radius: 50%;
   background: #ff3f3a;
+}
+
+.wrapper2 {
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper_section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 120px;
+}
+
+.wrapper_text_on_the_girl_img {
+  color: #424551;
+}
+
+.text_on_the_girl_img {
+  color: red;
+}
+
+.btn_1 {
+  max-width: 161px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 16px;
+  color: white;
+  background-image: linear-gradient(to right, #ff3f3a, #f75e05);
+  margin-top: 50px;
+}
+
+.wrapper_text1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.text1 {
+  font-weight: bold;
+}
+
+.text2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.wrapper3 {
+  font-family: "Lato", sans-serif;
 }
 
 @media (max-width: 1100px) {
