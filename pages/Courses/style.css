@@ -181,3 +181,128 @@ body {
   top: 330px;
   transform: rotate(-45deg);
 }
+
+.fikrlar {
+  padding: 80px 0;
+  background-color: #f4f5f7;
+  color: #1e212c;
+  text-align: center;
+}
+
+.fikr-quti {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.fikr-yorliq {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.fikr-sarlavha {
+  font-size: 46px;
+  font-weight: 900;
+  margin-top: 8px;
+  margin-bottom: 60px;
+}
+
+.slayder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.tugma {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  color: #424551;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tugma:hover {
+  background-color: #ff3f3a;
+  color: #ffffff;
+}
+
+.fikr-karta {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 64px 100px;
+  max-width: 860px;
+  text-align: left;
+  box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08);
+  position: relative;
+}
+
+.tirnoq {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 96px;
+  color: #ff3f3a;
+  line-height: 1;
+  font-family: Georgia, serif;
+  opacity: 0.3;
+}
+
+.fikr-matn {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #424551;
+  margin-bottom: 24px;
+}
+
+.muallif {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.muallif-ism {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.muallif-kasb {
+  font-size: 14px;
+  color: #787a80;
+  margin-top: 4px;
+}
+
+.nuqtalar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.nuqta {
+  width: 30px;
+  height: 3px;
+  background-color: #b3b5be;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.nuqta-faol {
+  background-color: #424551;
+  width: 40px;
+}
