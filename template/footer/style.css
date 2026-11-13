@@ -1,0 +1,125 @@
+.futer {
+  background-color: #1e212c;
+  color: #ffffff;
+  padding-top: 80px;
+}
+
+.futer-setka {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr 2.5fr;
+  gap: 40px;
+  padding-bottom: 60px;
+}
+
+.haqida {
+  max-width: 280px;
+}
+
+.futer-logo {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.futer-logo span {
+  color: #ff3f3a;
+}
+
+.izoh {
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.ijtimoiy {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.ustun {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ustun-nom {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.futer-link {
+  color: #ffffff;
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.futer-link:hover {
+  opacity: 1;
+}
+
+.aloqa {
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.yangilik {
+  max-width: 280px;
+}
+
+.yangilik-forma {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.yangilik-input {
+  background: transparent;
+  border: none;
+  padding: 10px 16px;
+  color: #ffffff;
+  flex: 1;
+  outline: none;
+}
+
+.yuborish {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.mayda {
+  font-size: 10px;
+}
+
+.pastki {
+  background-color: #292c37;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
+.pastki-ichi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.tepaga {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
