@@ -194,3 +194,6 @@
   font-size: 15px;
   color: #424551;
 }
+a {
+  text-decoration: none;
+}
