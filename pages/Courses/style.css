@@ -512,6 +512,28 @@ input {
   font-weight: 700;
 }
 
+.text123 {
+  text-align: center;
+}
+
+.text124 {
+  text-align: center;
+}
+
+.inp-wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  .inp-icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    translate: 0 -50%;
+    color: #9a9ca5;
+  }
+}
+
 @media (max-width: 1200px) {
   .futer-setka {
     grid-template-columns: 2fr 1fr 1fr 1.5fr;
@@ -698,5 +720,70 @@ input {
 
   .logo {
     width: 90px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header {
+    gap: 30px;
+  }
+
+  .nav {
+    gap: 24px;
+  }
+
+  .header_right {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+
+  .menu_btn {
+    display: inline-flex;
+    margin-left: 24px;
+  }
+
+  .menu_toggle:checked ~ .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(31, 32, 48, 0.15);
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .menu_btn {
+    order: 1;
+    margin-left: auto;
+  }
+
+  .header_right {
+    order: 2;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login {
+    font-size: 13px;
   }
 }
