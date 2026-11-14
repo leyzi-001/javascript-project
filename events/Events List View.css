@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: white;
 }
+
 .e {
   color: gray;
 }
@@ -222,13 +223,14 @@ body {
   color: white;
 }
 .a88{
-margin-inline:799px;
-}
+max-width: 2500px;
+width: 100%;
+margin: 0 auto;
+background-size: cover;}
 .a89 {
-  position: relative;
-  padding: 120px 15px 180px;
+
   background-color: #fedcd2;
-  overflow: hidden;
+
   text-align: center;
 }
 
