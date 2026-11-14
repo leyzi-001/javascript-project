@@ -4,6 +4,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .course_hero {
   position: relative;
   overflow: hidden;
@@ -459,19 +466,6 @@ body {
   padding: 80px 0;
 }
 
-.kimga::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -40px;
-  width: 110px;
-  height: 140px;
-  background-image: radial-gradient(circle, #ffcf2d 1.5px, transparent 1.5px);
-  background-size: 11px 11px;
-  -webkit-mask-image: linear-gradient(45deg, transparent 10%, #000 90%);
-  mask-image: linear-gradient(45deg, transparent 10%, #000 90%);
-}
-
 .kimga_inner {
   position: relative;
   display: grid;
@@ -571,7 +565,6 @@ body {
 
 .dars_belgi::before,
 .dars_belgi::after {
-  content: "";
   position: absolute;
   background-color: #ff3f3a;
 }
@@ -579,8 +572,6 @@ body {
 .dars_belgi::before {
   top: 5.5px;
   left: 0;
-  width: 12px;
-  height: 1px;
 }
 
 .dars_belgi::after {
@@ -751,18 +742,13 @@ body {
 }
 
 .royxat::before {
-  content: "";
   position: absolute;
   top: -60px;
   right: -60px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: repeating-radial-gradient(
-    circle at center,
-    transparent 0 14px,
-    #ffffff 14px 18px
-  );
+  background: repeating-radial-gradient(#ffffff 14px 18px);
 }
 
 .royxat_inner {
@@ -912,7 +898,6 @@ body {
 }
 
 .tavsiya_rasm::before {
-  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
